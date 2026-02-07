@@ -1,10 +1,3 @@
-#--------------PLAN-------------#
-# 1. Set of questions
-# 2. Select random question from set
-# 3. take user's answer
-# 4. tell wether the answer its correct or wrong
-# 5. tell the user its score
-#--------------------------------#
 import random
 questions = {
     "What function is used to output text in Python?": "print()",
@@ -39,6 +32,7 @@ def quiz_game():
 
 
 quiz_game()
+
 
 
 
